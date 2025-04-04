@@ -1,0 +1,192 @@
+@import url("resetstyles.css");
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding-inline: 15px;
+}
+
+
+.wrapper {
+    max-width: 1512px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    block-size: 100%;
+
+    margin-inline: auto;
+    width: 100%;
+    padding-inline: 1rem;
+}
+
+.wrapper > main {
+
+    flex-grow: 1;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 0px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+}
+
+
+.header_container {
+    display: flex;
+    align-items: center;
+    width: 1542px;
+    height: 64px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    max-width: 1512px;
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 1rem;
+}
+
+.header_logo {
+
+margin-right: auto;
+}
+
+.header_logo img {
+    height: 34px;
+    width: auto;
+
+    transition: 0.2s ease;
+}
+
+
+.header_search {
+    margin: 0 20px;
+    flex-grow: 1;
+    max-width: 600px;
+    
+}
+
+.search_form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+.search_group {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px;
+    flex: 1;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.search_group label {
+    position: absolute;
+    left: 10px;
+}
+
+.search_group label img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.search_input {
+    border: none;
+    outline: none;
+    background: white;
+    width: 100%;
+    font-size: 14px;
+    height: 42px;
+    padding: 10px 10px 10px 35px;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.search_group--states {
+    display: flex;
+    align-items: center;
+    border-left: 2px solid #ccc; /* ЧЕРТА между input и select */
+    padding-left: 10px;
+    align-self: stretch;
+}
+
+.search_select {
+    width: 200px;
+    height: 42px;
+    border: none;
+    background: white;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.search_button {
+    border: none;
+    background: rgb(246, 88, 88);
+    width: 42px;
+    height: 42px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_button img {
+    width: 15px;
+    height: 15px;
+}
+
+
+.header_options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+
+.language-selector select {
+    border: none;
+    padding: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth_login {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.auth_signup {
+    background: rgb(0, 121, 138);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
