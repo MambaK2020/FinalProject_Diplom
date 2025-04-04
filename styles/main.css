@@ -8,7 +8,7 @@ position: absolute;
 max-width: 1226px;
 width: 100%;
 
-  max-width: 1196px;
+  max-width: 1192px;
   width: 100%;
   margin-inline: auto;
   position: relative;
@@ -263,6 +263,29 @@ margin-top: 134px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
+
+
+
+.join_Meetup{
+  display: flex;
+  align-items: center;
+  
+  padding: 20px;
+  gap: 40px;
+} 
+    
+
+.image_meetup {
+  width: 341px;
+height: 196px;
+left: 795px;
+top: 20px;
+margin-top:134px;
+
+ 
+  
+}
+
 .title_join--Meetup{
 
     color: rgb(33, 33, 33);
@@ -271,13 +294,23 @@ margin-top: 134px;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 128px;
+    margin-top: 126px;
 
 }
 
 .text_join--Meetup{
    
-    color: rgb(33, 33, 33);
+  width: 664.64px;
+  height: 56px;
+  left: 0;
+  top: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+  
+  
+  color: rgb(33, 33, 33);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -286,9 +319,93 @@ margin-top: 134px;
 
 }
 
+.join_signup{
+
+  
+width: 192px;
+height: 40px;
+left: 0;
+top: 124px;
+  border-radius: 8px;
+
+  background: rgb(227, 35, 89);
+} 
+
+ 
+.type_events{
+  
+width: 1192px;
+height: 1836.5px;
+left: 364px;
+top: 1926px;
+}
+
+.type_events-category {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.type_title {
+
+width: 312.39px;
+height: 36px;
+left: 0;
+top: 300px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 100px;
+
+color: rgb(33, 33, 33);
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.type_events-category {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+
+}
+
+.icon{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+width: 19.64px;
+height: 18.85px;
+left: 0.36px;
+top: 0.59px;
+margin-top: 46.59px;
+
+}
+
+.type_p{
+
+width: 79.2px;
+height: 48px;
+left: 28px;
+top: 48px;
+
+margin-top: 8px;
+
+color: rgb(33, 33, 33);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
 
 
-
+}
 
 
 
