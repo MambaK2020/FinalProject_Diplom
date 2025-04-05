@@ -335,9 +335,9 @@ top: 124px;
 .type_events{
   
 width: 1192px;
-height: 1836.5px;
-left: 364px;
-top: 1926px;
+max-height: 100%;
+
+
 }
 
 .type_events-category {
@@ -381,7 +381,7 @@ text-align: left;
   flex-direction: column;
   align-items: center;
   text-align: center;
-width: 19.64px;
+width: auto;
 height: 18.85px;
 left: 0.36px;
 top: 0.59px;
@@ -406,6 +406,269 @@ text-align: center;
 
 
 }
+
+.popular_cities {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 120px ;
+}
+
+.popular_cities--title {
+
+color: rgb(33, 33, 33);
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.popular_cities--text {
+
+color: rgb(112, 112, 112);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 28px;
+}
+
+.cytes_photo {
+
+  width: 205px;
+height: 205px;
+left: 0;
+top: 640px;
+}
+
+
+.images_cytes {
+
+  display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title_cytes {
+
+color: rgb(33, 33, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+}
+
+.title_discover{
+  
+
+color: rgb(33, 33, 33);
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 64px;
+}
+
+.discovers_title {
+
+color: rgb(33, 33, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.discover_text {
+
+color: rgb(33, 33, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+  
+}
+
+.web_search-title {
+
+color: rgb(0, 121, 138);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.start_title {
+
+color: rgb(33, 33, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+
+}
+
+.start_text {
+
+color: rgb(33, 33, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.meetup_works {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.discover, .start_group {
+
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.start_web {
+
+  color: rgb(0, 121, 138);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+
+.text_block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* @media (max-width: 768px) {
+  .meetup_works {
+    grid-template-columns: 1fr;
+  }
+
+  .discover, .start_group {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text_block {
+    align-items: center;
+  }
+} */
+
+
+
+.friendship_meetup{
+  
+color: rgb(33, 33, 33);
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom:16px;
+
+
+}
+
+.text_friendship_meetup{
+
+color: rgb(112, 112, 112);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 16px;
+}
+
+.titile_brunch {
+
+color: rgb(33, 33, 33);
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+margin-top: 24px;
+}
+
+.text_branch{
+
+color: rgb(112, 112, 112);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.web_brunch {
+
+color: rgb(0, 121, 138);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.main3_menu{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+/* Адаптив для планшетов и мобилок */
+/* @media (max-width: 992px) {
+  .main3_menu {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .main3_menu {
+    grid-template-columns: 1fr;
+  }
+
+  .made_titile {
+    text-align: center;
+  } */
 
 
 
