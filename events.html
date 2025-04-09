@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header">
+          <div class="header_container">
+            <a class="header_logo" href="">
+              <img src="/assets/img/Link - Meetup logo@2x.png" alt="LogoMeetup"/></a>
+  
+            <div class="header_search search">
+              <form action="#" class="search_form">
+                <div class="search_group search_group--search">
+                  <label for="search-input">
+                    <img src="/assets/svg/SVG.svg" alt="Search" />
+                  </label>
+                  <input
+                    id="search-input"
+                    class="search_input"
+                    placeholder="Search events"
+                    type="text"
+                  />
+                </div>
+                <div class="search_group search_group--states">
+                  <select class="search_select" id="states-select">
+                    <option value="">Mountain View, CA</option>
+                    <option value="state1">State1</option>
+                    <option value="state2">State2</option>
+                    <option value="state3">State3</option>
+                  </select>
+                </div>
+                <button type="submit" class="search_button">
+                  <img src="/assets/svg/SVG.svg" alt="" />
+                </button>
+              </form>
+            </div>
+  
+            <div class="header_options">
+              <div class="header_language language-selector">
+                <label for="language-selector">
+                  <img src="/assets/svg/Vector.svg" alt="" />
+                </label>
+                <select id="language-selector" class="language-selector_dropdown">
+                  <option value="en">English</option>
+                  <option value="de">Deutch</option>
+                  <option value="sp">Spanish</option>
+                </select>
+              </div>
+              <div class="header_auth auth">
+                <a href="#" class="auth_login">Log in</a>
+                <a href="#" class="auth_signup auth_signup--text">Sign up</a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+
+
+
+
+        <div class="event_container">
+            <div class="event_wrapper" >
+                <h3 class="event_title">Events near New York, NY</h3>
+                <a class="web_event2" href="#">Events</a>
+
+                <div class = "filter">
+                    <div class="category">
+                        <select class="" id="type">
+                          <option value="">Any type</option>
+                          <option value="online">Online</option>
+                          <option value="offline">Offline</option>
+                        </select>
+                      </div>
+    
+                      <div class="category">
+                        <select class="" id="distance">
+                          <option value="">Any distance</option>
+                          <option value="5">5 km</option>
+                          <option value="10">10 km</option>
+                          <option value="15">15 km</option>
+                          <option value="25">25 km</option>
+                          <option value="75">75 km</option>
+                          <option value="50">50 km</option>
+                          <option value="100">100 km</option>
+                        </select>
+                      </div>
+    
+                      <div class="category">
+                        <select class="" id="category">
+                          <option value="">Any category</option>
+                          <option value="Travel and
+                          Outdoor">Travel and
+                          Outdoor</option>
+                          <option value="Social
+                          Activities">Social
+                          Activities</option>
+                          <option value="Hobbies and
+                          Passions">Hobbies and
+                          Passions</option>
+                          <option value="Sports and
+                          Fitness">Sports and
+                          Fitness</option>
+                          <option value="Health and
+                          Wellbeing">Health and
+                          Wellbeing</option>
+                          <option value="Technology">Technology</option>
+                          <option value="Art and
+                          Culture">Art and
+                          Culture</option>
+                          <option value="Games">Games</option>
+                        </select>
+            </div>
+        </div>
+
+        <div id="events-list" class="events-list"></div>
+    </div>
+
+            <div class="map">
+                <p class="event_text">Find events near</p>
+                <h4 class="event_title1">New York, NY</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121449.83766694076!2d-122.14010871241172!3d37.403655208535625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sMountain%20View%2C%20CA%2C%20USA!5e0!3m2!1sen!2sde!4v1744013475498!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+
+            
+        </div>
+                
+
+        <footer class="footer">
+            <div class="footer_container">
+              <h4 class="fotter_title">Create your own Meetup group.</h4>
+              <button class="footer_button">Get Started</button>
+            </div>
+    
+            <hr class="full-width-line" />
+              
+            
+            <nav class="footer_nav">
+                
+                <ul>
+                  <li>Your Account</li>
+                  <li><a href="#">Sign up</a></li>
+                  <li><a href="#">Log in</a></li>
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Become an Affiliate</a></li>
+                </ul>
+    
+    
+                <ul>
+                  <li>Discover</li>
+                  <li><a href="#">Groups</a></li>
+                  <li><a href="#">Calendar</a></li>
+                  <li><a href="#">Topics</a></li>
+                  <li><a href="#">Citiese</a></li>
+                  <li><a href="#">Online Events</a></li>
+                  <li><a href="#">Local Guides</a></li>
+                  <li><a href="#">Make Friends</a></li>
+                </ul>
+    
+    
+                <ul>
+                  <li>Meetup</li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Meetup Pro</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Apps</a></li>
+                  <li><a href="#">Podcast</a></li>
+                </ul>
+              </nav>
+              
+              <div class="follow">
+                <div class="follow_left">
+                  <p>Follow us</p>
+                <div class="social_icons">
+                  <img src="/assets/svg/Link - Meetup on Facebook → SVG.svg" alt="Facebook">
+                <img src="/assets/svg/Link - Meetup on Twitter → SVG.svg" alt="Twitter">
+                <img src="/assets/svg/Link - Meetup on YouTube → SVG.svg" alt="YouTube">
+                <img src="/assets/svg/Link - Instagram → SVG.svg" alt="Instagram">
+                <img src="/assets/svg/Link - TikTok → SVG.svg" alt="TikTok">
+                  </div>
+                </div>
+                
+                <div class="getOn">
+                  <img src="/assets/img/download_en-US.svg fill.png" alt="GooglePay">
+                  <img src="/assets/img/download_en-US.svg fill (1).png" alt="AppStore">
+                </div>
+              </div>
+    
+                <div class="ended">
+    
+                <p>© 2024 Meetup</p>
+    
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+                <p>Do Not Sell or Share My Personal Data</p>
+                <p>Cookie Policy</p>
+                <P>Help</P>
+    
+    
+                </div>
+    
+              </div>
+    
+    
+    
+    
+            
+    
+    
+          </footer>
+        </div>
+        
+
+</div>
+
+
+
+
+</body>
+<script src="/scripts/app.js"></script>
+</html>

@@ -1,10 +1,145 @@
-.footer {
+
+.event_container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+
+    
+
+.filter {
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 17.45px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.event_title{
+
+color: rgb(0, 0, 0);
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 92px;
+margin-bottom: 16px;
+
+}
+
+.event_text{
+
+
+color: rgb(33, 33, 33);
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 81px;
+
+
+}
+
+.event_title1 {
+
+color: rgb(33, 33, 33);
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.map {
+
+    border-radius: 12px;
+background: url();
+
+overflow: hidden;
+}
+
+.web_event2{
+
+color: rgb(0, 121, 138);
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+
+box-sizing: border-box;
+border-bottom: 4px solid rgb(0, 121, 138);
+margin-top: 16px;
+}
+
+.category {
+
+color: rgb(33, 33, 33);
+font-size: 14px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0%;
+}
+
+.events-list {
+    margin: 40px auto;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .event-card {
+    display: flex;
+    gap: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  .event-image {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .event-info {
+    flex-grow: 1;
+  }
+  
+  .event-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 0;
+  }
+  
+  .event-date,
+  .event-category,
+  .event-attendees {
+    font-size: 14px;
+    color: #444;
+  }
+
+  .footer {
     max-width: 1512px;
     width: 100%;
-    margin: 0 auto;
+   margin: 0 auto;
     background-color: rgb(33, 33, 33);
-    margin-top: 87.5px;
-    padding: 18px 15.8px 35px ;
+    padding: 60px 24px 40px;
+    margin-top: 64px;
   }
 
   .footer_container{
@@ -38,6 +173,7 @@ color: rgb(246, 247, 248);
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
+letter-spacing: 0%;
 text-align: left;
 
     }
@@ -52,7 +188,7 @@ text-align: left;
 
   .fotter_title {
 
-    max-width: 100%;
+    width: 249.17px;
 height: 24px;
 left: 0;
 top: 10px;
@@ -64,6 +200,8 @@ color: rgb(246, 247, 248);
 font-size: 16px;
 font-weight: 600;
 line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
   }
 
   .footer_button{
@@ -138,6 +276,7 @@ margin-top: 14.5px;
     margin-top: 24px;
     font-size: 13px;
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 32px;
     gap: 23.81px;
@@ -148,82 +287,8 @@ color: rgb(255, 255, 255);
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
-margin-left: 187px;
+letter-spacing: 0%;
+text-align: left;
   }
 
-
-  @media screen and (max-width: 393px) {
   
-
-    .footer_container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 2px;
-   
-    
-    }
-
-    .fotter_title{
-    white-space: nowrap;
-    flex-shrink: 1; 
-    
-      
-    }
-
-    .footer_button{
-
-    white-space: nowrap;
-    width: 50%;
-    padding: 10px 14px;
-    font-size: 10px;
-    flex-shrink: 0;
-    }
-      
-    
-
-    .footer_nav {
-
-      font-size: 12px;
-      gap: 20px;
-      
-    }
-
-    .footer_nav {
-      
-      flex-wrap: nowrap;
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 10px;
-      padding: 0;
-    }
-    .footer_nav ul {
-      min-width: 33%;
-      margin: 0;
-      margin-top: 34px;
-    }
-    
-    .getOn {
-
-      display: none;
-      
-    }
-
-    .ended {
-      margin: 24px 0 0 0;
-      justify-content: flex-start;
-      margin-left: 0;
-      gap: 0;
-    }
-    .footer_hidden{
-      display: none;
-    }
-
-    .logo-adaptiv {
-
-      display: flex;
-      justify-content: flex-start;
-      margin-top: 54.5px;
-    }
-}
