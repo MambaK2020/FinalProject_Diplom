@@ -13,20 +13,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1512px;
+    max-width: 1240px;
+    width: 100%;
     margin: 50px auto;
     padding: 20px;
     gap: 40px;
-    margin-top: 110px;
+    margin-top: 82px;
 
 
 
 }
 .main_text {
-
-
    flex: 1;
-   max-width: 600px;
+   max-width: 620px;
 
 
 }
@@ -35,30 +34,23 @@
 
 font-weight: 700;
 font-size: 42px;
-line-height: 52px;
-letter-spacing: 0%;
-vertical-align: middle;
-
 }
 
 .main_text p{
-
-    
+  
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 0%;
-vertical-align: middle;
 margin-top: 24.5px;
 
 }
-
 
 .image__container {
 
     flex: 1;
     display: flex;
     justify-content: center;
+    width: 620px;
 
 }
 
@@ -70,7 +62,7 @@ margin-top: 24.5px;
 
 .join_Button{
 
-    display: inline-block;
+    /* display: inline-block; */
     background: #00798A;
     color: white;
     text-decoration: none;
@@ -83,14 +75,13 @@ margin-top: 24.5px;
 
 }
 
-
-
-
 .menu_main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 28px;
+    max-width: 1196px;
+    margin: 0 auto;
     
 }
 
@@ -98,51 +89,39 @@ margin-top: 24.5px;
 
     display: flex;
     align-items: center;
-    gap:19.8px;
-}
-
-.mountain{
-
-    color: rgb(0, 121, 138);
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-padding-left:19.8px ;
-
+   
     
 }
-    .allevent{
-        display: flex;
-        justify-content: flex-end;
-        text-align: center;
-
-    color: rgb(0, 121, 138);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-
-    }
 
 .event {
 
-color: rgb(33, 33, 33);
-font-size: 28px;
+  color: rgb(33, 33, 33);
+  font-size: 28px;
+  font-weight: 600;
+  
+  
+  }
+
+
+.mountain{
+
+color: rgb(0, 121, 138);
+font-size: 20px;
 font-weight: 600;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-}
+line-height: 24px;
+margin-left: 10px;
 
-.location {
-
-    display: flex;
-    align-items: center;
-    gap:11.48px ;
 }
+  .allevent{
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: rgb(0, 121, 138);
+        font-size: 16px;
+        font-weight: 500;
+        gap: 10px;
+    }
 
 .title_card{
 
@@ -150,21 +129,15 @@ color: rgb(33, 33, 33);
 font-size: 20px;
 font-weight: 600;
 line-height: 24px;
-letter-spacing: 0%;
 text-align: left;
-margin-top: 12px;
-
-    
+margin-top: 12px;  
 }
-
 .distance_card {
 
     color: rgb(112, 112, 112);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0%;
     text-align: left;
     margin-top: 8px;
 
@@ -175,30 +148,23 @@ margin-top: 12px;
     display: flex;
     margin-top: 8px;
     gap: 8.5px;
-
-color: rgb(33, 33, 33);
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: -0.35px;
-text-align: left;
-text-transform: uppercase;
+    color: rgb(33, 33, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 
 .ticket_card {
 
-    display: flex;
-    margin-top: 8px;
-    gap: 8.5px;
-
-color: rgb(33, 33, 33);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-
-
+  display: flex;
+  margin-top: 8px;
+  gap: 8.5px;
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }
 
 .event-grid {
@@ -213,18 +179,18 @@ text-align: left;
 .main_menu2{
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
 }
 
-.event1 {
+.event_1-main {
 
 color: rgb(33, 33, 33);
 font-size: 28px;
 font-weight: 600;
 line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-
 margin-top: 134px;
+margin-left: 150px;
 }
 
 .allevent1{
@@ -233,11 +199,8 @@ color: rgb(0, 121, 138);
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
 margin-top: 134px;
-
-
+margin-left: 380px;
 }
 
 .event-grid1{
@@ -254,27 +217,30 @@ margin-top: 134px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
-
-
-
 .join_Meetup{
   display: flex;
   align-items: center;
-  
   padding: 20px;
   gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(151, 202, 209, 0.08);
+  margin: 0 auto;
+  margin-top: 20px;
 } 
-    
 
+.left_site{
+margin-left: 56px;
+margin-top: 36px;
+
+}
 .image_meetup {
   width: 341px;
-height: 196px;
-left: 795px;
-top: 20px;
-margin-top:134px;
-
+  height: 196px;
+  left: 795px;
+  top: 20px;
  
-  
 }
 
 .title_join--Meetup{
@@ -283,86 +249,69 @@ margin-top:134px;
     font-size: 28px;
     font-weight: 600;
     line-height: 36px;
-    letter-spacing: 0%;
     text-align: left;
-    margin-top: 126px;
+   
+
 
 }
 
 .text_join--Meetup{
    
-  width: 664.64px;
-  height: 56px;
-  left: 0;
-  top: 52px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 16px;
-  
-  
-  color: rgb(33, 33, 33);
+    width: 664.64px;
+    height: 56px;
+    left: 0;
+    top: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+    color: rgb(33, 33, 33);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
+  
+   
 
 }
 
-.join_signup{
+.image_meetup{
 
-  
+  margin-left: 75px;
+  width: 341px;
+height: 196px;
+}
+
+.join_signup{ 
 width: 192px;
 height: 40px;
-left: 0;
-top: 124px;
-  border-radius: 8px;
+border-radius: 8px;
+background: rgb(227, 35, 89);
 
-  background: rgb(227, 35, 89);
 } 
-
- 
 .type_events{
   
-width: 1192px;
-max-height: 100%;
-
+max-width: 1192px;
+width: 100%;
+margin: 0 auto;
 
 }
 
 .type_events-category {
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  
+
 }
 .type_title {
-
-width: 312.39px;
-height: 36px;
-left: 0;
-top: 300px;
-display: flex;
-flex-direction: row;
-align-items: center;
-margin-top: 100px;
-
-color: rgb(33, 33, 33);
+max-width: 1200px;
+width: 100%;
+margin-top: 64px;
+margin-bottom: 24px;
 font-size: 28px;
 font-weight: 600;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-}
-
-.type_events-category {
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
 
 }
 
@@ -372,29 +321,21 @@ text-align: left;
   flex-direction: column;
   align-items: center;
   text-align: center;
-width: auto;
-height: 18.85px;
-left: 0.36px;
-top: 0.59px;
-margin-top: 46.59px;
+  border-radius: 8px;
+  background: rgba(151, 202, 209, 0.08);
+  width: 100px;
+  height: 100px;
+  padding-top: 21px;
 
 }
 
 .type_p{
-
-width: 79.2px;
-height: 48px;
-left: 28px;
-top: 48px;
-
-margin-top: 8px;
-
 color: rgb(33, 33, 33);
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 text-align: center;
-
+margin-top: 6.35px;
 
 }
 
@@ -404,8 +345,9 @@ text-align: center;
   margin: 0 auto;
   text-align: center;
   padding: 40px 20px;
-  margin-top: 120px ;
 }
+
+
 
 .popular_cities--title {
 
@@ -413,7 +355,6 @@ color: rgb(33, 33, 33);
 font-size: 28px;
 font-weight: 600;
 line-height: 36px;
-letter-spacing: 0%;
 text-align: left;
 margin-bottom: 16px;
 }
@@ -466,9 +407,9 @@ color: rgb(33, 33, 33);
 font-size: 28px;
 font-weight: 600;
 line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 64px;
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
 }
 
 .discovers_title {
@@ -479,7 +420,7 @@ font-weight: 600;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-margin-bottom: 16px;
+margin-bottom: px;
 }
 
 .discover_text {
@@ -532,7 +473,6 @@ margin-bottom: 16px;
 
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -543,6 +483,13 @@ margin-bottom: 16px;
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  border-radius: 8px;
+  background: rgba(151, 202, 209, 0.08);
+  width: 580px;
+  height: 180px;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 24px;
 }
 
 .start_web {
@@ -550,8 +497,6 @@ margin-bottom: 16px;
   color: rgb(0, 121, 138);
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
 
 }
@@ -559,9 +504,15 @@ margin-bottom: 16px;
 .text_block {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+
+
 }
 
+.made_titile{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 
 .friendship_meetup{
   
@@ -581,10 +532,10 @@ margin-bottom:16px;
 color: rgb(112, 112, 112);
 font-size: 16px;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
 text-align: left;
 margin-top: 16px;
+margin: 0 auto;
+margin-bottom: 28px;
 }
 
 .titile_brunch {
@@ -592,8 +543,6 @@ margin-top: 16px;
 color: rgb(33, 33, 33);
 font-size: 18px;
 font-weight: 600;
-line-height: 28px;
-letter-spacing: 0%;
 text-align: left;
 margin-bottom: 12px;
 margin-top: 24px;
@@ -604,9 +553,6 @@ margin-top: 24px;
 color: rgb(112, 112, 112);
 font-size: 16px;
 font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
 margin-bottom: 16px;
 }
 
@@ -621,217 +567,132 @@ text-align: left;
 }
 
 .main3_menu{
-
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 
-@media  (max-width: 393px) {
 
-  .title__container {
+ @media (max-width: 393px) {
+  
+
+  .footer_container {
     flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
     padding: 16px;
-    margin: 30px auto;
-    gap: 24px;
-
-
-   
-
   }
 
-  .main_text {
-    max-width: 100%;
+  .fotter_title {
+    width: 100%;
   }
 
-  .main_text h1 {
-    font-size: 25px;
-    line-height: 30.5px;
-    letter-spacing: 0%;
-    text-align: left
-   
-
+  .footer_button {
+    margin-left: 0;
+    margin-top: 12px;
   }
 
-  .main_text p {
-    font-size: 12px;
-    
-    
+  
+  .footer_nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 16px 40px;
   }
 
-  .join_Button {
-    display: none;
+  .footer_nav ul {
+    flex: 1;
+    min-width: unset;
+    margin: 0;
   }
 
-  .image__container {
-    justify-content: center;
-    margin-top:10px ;
-
-  }
-
-  .menu_main,
-  .main_menu2 {
+  
+  .follow {
     flex-direction: column;
     align-items: flex-start;
     padding: 0 16px;
-    gap: 12px;
-  }
-.event{
-
-  font-size: 20px;
-  width: 100%;
-
-}
-
-.mountain{
-
-  font-size: 13px;
-  
-}
-
-.location{
-
-
-}
-  .event,
-  .event1,
-  .allevent1 {
-    font-size: 20px;
-    text-align: left;
-    margin-top: 24px;
-  }
-
-  .allevent{
-    display: none;
-  }
-
-  .event-grid,
-  .event-grid1,
-  .images_cytes,
-  .meetup_works,
-  .main3_menu {
-    grid-template-columns: 1fr;
-    padding: 16px;
+    margin-top: 40px;
     gap: 16px;
   }
 
-  .join_Meetup {
+  .getOn {
+    margin-top: 12px;
+    gap: 16px;
+  }
+
+  
+  .ended {
     flex-direction: column;
-    padding: 16px;
+    align-items: flex-start;
+    padding: 0 16px;
+    margin-left: 0;
+    margin-top: 24px;
+    gap: 12px;
   }
 
-  .image_meetup {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
+  .ended p:not(:first-child) {
+    display: none;
   }
-
-  .title_join--Meetup {
-    font-size: 24px;
-    line-height: 32px;
-    margin-top: 32px;
-    text-align: center;
+  .map{
+    display: none;
   }
-
-  .text_join--Meetup {
-    font-size: 14px;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  .join_signup {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .type_title {
-    font-size: 24px;
-    text-align: center;
-    margin: 40px 0 16px;
-    justify-content: center;
-  }
-
-  .type_events-category {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .icon {
-    margin-top: 16px;
-  }
-
-  .type_p {
-    font-size: 14px;
-  }
-
-  .popular_cities {
-    padding: 20px 10px;
-  }
-
-  .popular_cities--title,
-  .popular_cities--text {
-    text-align: center;
-  }
-
-  .popular_cities--title {
-    font-size: 24px;
-  }
-
-  .cytes_photo {
-    width: 100%;
-    height: auto;
-  }
-
-  .title_cytes {
-    font-size: 16px;
-    margin-top: 16px;
-  }
-
-  .title_discover {
-    font-size: 24px;
-    margin-bottom: 32px;
-  }
-
-  .discovers_title,
-  .start_title {
-    font-size: 18px;
-  }
-
-  .discover_text,
-  .start_text {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .start_web,
-  .web_search-title,
-  .web_brunch {
-    font-size: 14px;
-  }
-
-  .friendship_meetup {
-    font-size: 24px;
-  }
-
-  .text_friendship_meetup {
-    font-size: 14px;
-  }
-
-  .titile_brunch {
-    font-size: 16px;
-    margin-top: 20px;
-  }
-
-  .text_branch {
-    font-size: 14px;
-  }
-
 }
 
 
+@media (max-width: 393px) {
+  .footer_container {
+    flex-direction: column;
+    align-items: flex-start; /* выравнивание влево */
+    padding: 16px;
+    text-align: left;
+  }
 
+  .footer_button {
+    margin-left: 0;
+    margin-top: 12px;
+  }
 
+  .footer_nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px;
+    padding: 0 16px 40px;
+    text-align: left;
+  }
+
+  .footer_nav ul {
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+  }
+
+  .follow {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 16px;
+    margin-top: 32px;
+    gap: 16px;
+  }
+
+  .getOn {
+    margin-top: 12px;
+    gap: 16px;
+  }
+
+  .ended {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 16px;
+    gap: 12px;
+  }
+
+  .ended p:nth-child(n+2) {
+    display: none; 
+  }
+}

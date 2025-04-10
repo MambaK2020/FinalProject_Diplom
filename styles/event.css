@@ -1,3 +1,10 @@
+@import url("resetstyles.css");
+@import url("styleheader.css"); 
+@import url("main.css");
+@import url("footer.css");
+
+
+
 
 .event_container{
 
@@ -133,162 +140,61 @@ letter-spacing: 0%;
     color: #444;
   }
 
-  .footer {
-    max-width: 1512px;
-    width: 100%;
-   margin: 0 auto;
-    background-color: rgb(33, 33, 33);
-    padding: 60px 24px 40px;
-    margin-top: 64px;
-  }
 
-  .footer_container{
-    display: flex;
-    max-width: 1120px;
-    margin: 0 auto;
-    gap:48px;
-    text-align: center;
-  }
-    .full-width-line {
-      border: none;
-      height: 1px;
-      background-color: #ccc;
-      width: 1120px; 
-      margin: 0 auto;
-      width: 1120px;
-      margin-bottom: 35px;
+   @media screen and (max-width: 393px) {
   
+    .event_container {
+      grid-template-columns: 1fr;
+      padding: 24px 16px 120px; 
+      gap: 24px;
     }
-
+  
     .footer_nav {
-      display: flex;
-      justify-content: space-between;
-      gap: 40px;
-      flex-wrap: wrap;
-      max-width: 1120px;
-      margin: 0px auto;
+      flex-direction: column;
+      gap: 24px;
+      text-align: left;
       padding: 0 16px 40px;
-
-color: rgb(246, 247, 248);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-
     }
-
+  
     .footer_nav ul {
-      flex: 1;
-      min-width: 200px;
-      margin: 0 20px;
+      margin: 0;
     }
   
+    .follow {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0 16px;
+      margin-top: 40px;
+      gap: 16px;
+    }
   
-
-  .fotter_title {
-
-    width: 249.17px;
-height: 24px;
-left: 0;
-top: 10px;
-display: flex;
-flex-direction: row;
-align-items: center;
-
-color: rgb(246, 247, 248);
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-  }
-
-  .footer_button{
-
-box-sizing: border-box;
-border: 2px solid rgb(255, 255, 255);
-border-radius: 6px;
-
-color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 16px;
-
-
-width: 119px;
-height: 44px;
-left: 264.97px;
-top: 0;
-padding-left: 14px;
-
-  }
-
-  .follow {
-
-    max-width: 1120px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 125px;
-   
-
-  }
-
-  .follow p{
-
-color: rgb(246, 247, 248);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-
-
-  }
-
-  .social_icons {
-
-    display: flex;
-    gap: 12px;
-align-items: start;
-margin-top: 14.5px;
-
-  }
-
-.getOn {
-
-  display: flex;
-  align-items: center;
-  margin-top: 16px;
-  gap: 25.54px;
-}
-
-
-
-
-  .ended {
-    margin-top: 24px;
-    font-size: 13px;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top: 32px;
-    gap: 23.81px;
-
-    
-    
-color: rgb(255, 255, 255);
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: left;
-  }
-
+    .getOn {
+      margin-top: 12px;
+      gap: 16px;
+    }
   
+    .ended {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0 16px;
+      margin-left: 0;
+      margin-top: 24px;
+      gap: 12px;
+    }
+  
+    .footer_container {
+      flex-direction: column;
+      align-items: center;
+      padding: 16px 16px 0;
+      text-align: center;
+    }
+  
+    .fotter_title {
+      width: 100%;
+    }
+  
+    .footer_button {
+      margin-left: 0;
+      margin-top: 12px;
+    }
+  }

@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/event.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Second page</title>
+    
 </head>
 <body>
-    
-    <div class="wrapper">
-        <header class="header">
-          <div class="header_container">
-            <a class="header_logo" href="">
-              <img src="/assets/img/Link - Meetup logo@2x.png" alt="LogoMeetup"/></a>
-  
-            <div class="header_search search">
-              <form action="#" class="search_form">
-                <div class="search_group search_group--search">
-                  <label for="search-input">
-                    <img src="/assets/svg/SVG.svg" alt="Search" />
-                  </label>
-                  <input
-                    id="search-input"
-                    class="search_input"
-                    placeholder="Search events"
-                    type="text"
-                  />
-                </div>
-                <div class="search_group search_group--states">
-                  <select class="search_select" id="states-select">
-                    <option value="">Mountain View, CA</option>
-                    <option value="state1">State1</option>
-                    <option value="state2">State2</option>
-                    <option value="state3">State3</option>
-                  </select>
-                </div>
-                <button type="submit" class="search_button">
-                  <img src="/assets/svg/SVG.svg" alt="" />
-                </button>
-              </form>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header_container">
+       <div class="option">
+        <a class="header_logo" href="http://127.0.0.1:5500/index.html">
+          <img src="/assets/img/Link - Meetup logo@2x.png" alt="LogoMeetup"/></a>
+       </div>
+        <div class="header_search ">
+          <form action="#" class="search_form">
+            <div class="search_group search_group--search">
+              <label for="search-input">
+                <img src="/assets/svg/SVG.svg" alt="Search" />
+              </label>
+              <input
+                id="search-input"
+                class="search_input"
+                placeholder="Search events"
+                type="text"
+              />
             </div>
-  
-            <div class="header_options">
-              <div class="header_language language-selector">
-                <label for="language-selector">
-                  <img src="/assets/svg/Vector.svg" alt="" />
-                </label>
-                <select id="language-selector" class="language-selector_dropdown">
-                  <option value="en">English</option>
-                  <option value="de">Deutch</option>
-                  <option value="sp">Spanish</option>
-                </select>
-              </div>
-              <div class="header_auth auth">
-                <a href="#" class="auth_login">Log in</a>
-                <a href="#" class="auth_signup auth_signup--text">Sign up</a>
-              </div>
+            <div class="search_group search_group--states">
+              <select class="search_select" id="states-select">
+                <option value="">Mountain View, CA</option>
+                <option value="state1">State1</option>
+                <option value="state2">State2</option>
+                <option value="state3">State3</option>
+              </select>
             </div>
+            <button type="submit" class="search_button">
+              <img src="/assets/svg/Vector — копия.svg" alt="" />
+            </button>
+          </form>
+        </div>
+
+        <div class="header_options">
+          <div class="header_language language-selector">
+            <label for="language-selector">
+              <img src="/assets/svg/Vector.svg" alt="vector" />
+            </label>
+            <select id="language-selector" class="language-selector_dropdown">
+              <option value="en">English</option>
+              <option value="de">Deutch</option>
+              <option value="sp">Spanish</option>
+            </select>
           </div>
-        </header>
-
-
-
-
+          <div class="header_auth auth">
+            <a href="#" class="auth_login">Log in</a>
+            <a href="#" class="auth_signup auth_signup--text">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
 
         <div class="event_container">
             <div class="event_wrapper" >
-                <h3 class="event_title">Events near New York, NY</h3>
-                <a class="web_event2" href="#">Events</a>
+                <div class="main_event-title"><h3 class="event_title">Events near New York, NY</h3>
+                  <a class="web_event2" href="#">Events</a></div>
 
                 <div class = "filter">
                     <div class="category">
